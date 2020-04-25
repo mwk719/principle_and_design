@@ -1,4 +1,4 @@
-package com.minwk.principle_design;
+package com.minwk.construct;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

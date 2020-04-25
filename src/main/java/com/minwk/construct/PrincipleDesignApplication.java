@@ -1,4 +1,4 @@
-package com.minwk.principle_design;
+package com.minwk.construct;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
