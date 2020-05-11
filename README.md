@@ -20,6 +20,7 @@ principle
 
 软件设计模式
 design
-├─singleton    //单例模式    http://c.biancheng.net/view/1324.html
-├─prototype    //原型模式    http://c.biancheng.net/view/1343.html
+├─singleton         //单例模式    http://c.biancheng.net/view/1324.html
+├─prototype         //原型模式    http://c.biancheng.net/view/1343.html
+├─factorymethod     //工厂模式    http://c.biancheng.net/view/1348.html
 ````
