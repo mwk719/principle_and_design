@@ -24,5 +24,7 @@ design
 ├─prototype         //原型模式    http://c.biancheng.net/view/1343.html
 ├─factorymethod     //工厂模式    http://c.biancheng.net/view/1348.html
 ├─builder           //建造者模式  http://c.biancheng.net/view/1354.html
-├─proxy           //代理模式  http://c.biancheng.net/view/1359.html
+├─proxy             //代理模式    http://c.biancheng.net/view/1359.html
+├─adapter           //适配器模式  http://c.biancheng.net/view/1361.html
+├─bridge            //桥接模式    http://c.biancheng.net/view/1364.html
 ````
