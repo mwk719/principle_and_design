@@ -27,4 +27,8 @@ design
 ├─proxy             //代理模式    http://c.biancheng.net/view/1359.html
 ├─adapter           //适配器模式  http://c.biancheng.net/view/1361.html
 ├─bridge            //桥接模式    http://c.biancheng.net/view/1364.html
+├─decorator         //装饰模式    http://c.biancheng.net/view/1366.html
+├─facade            //外观模式    http://c.biancheng.net/view/1369.html
+├─flyweight         //享元模式    http://c.biancheng.net/view/1371.html
+├─composite         //组合模式    http://c.biancheng.net/view/1373.html
 ````
