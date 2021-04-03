@@ -27,4 +27,5 @@ design
 ├─proxy             //代理模式    http://c.biancheng.net/view/1359.html
 ├─adapter           //适配器模式  http://c.biancheng.net/view/1361.html
 ├─bridge            //桥接模式    http://c.biancheng.net/view/1364.html
+├─observer          //观察者模式
 ````
