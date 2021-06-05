@@ -32,5 +32,5 @@ design
 ├─flyweight         //享元模式    http://c.biancheng.net/view/1371.html
 ├─composite         //组合模式    http://c.biancheng.net/view/1373.html
 ├─observer          //观察者模式
-├─template          //模板模式    
+├─template          //模板模式    https://minwk.top/template-factory/
 ````
