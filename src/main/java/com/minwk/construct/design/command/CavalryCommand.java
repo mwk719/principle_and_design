@@ -20,7 +20,7 @@ public class CavalryCommand implements ArmsCommand {
     @Override
     public void execute() {
         System.out.println("骑兵连！进攻！");
-        soldierReceiver.action();
+        soldierReceiver.action("骑兵连冲锋！");
     }
 
 }

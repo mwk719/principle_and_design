@@ -17,6 +17,11 @@ public class HeadInvoker {
      */
     private String name;
 
+    /**
+     * 开火方法，用于调用命令
+     *
+     * @param command
+     */
     public void fire(ArmsCommand command) {
         System.out.println("指挥者：" + name + "发出命令");
         command.execute();

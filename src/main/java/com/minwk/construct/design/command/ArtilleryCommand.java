@@ -20,7 +20,7 @@ public class ArtilleryCommand implements ArmsCommand {
     @Override
     public void execute() {
         System.out.println(soldierReceiver.getName() + "，你他娘的意大利炮呢？");
-        soldierReceiver.action();
+        soldierReceiver.action("开炮！");
     }
 
 }

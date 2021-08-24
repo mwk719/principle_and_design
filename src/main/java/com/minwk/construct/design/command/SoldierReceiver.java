@@ -22,7 +22,7 @@ public class SoldierReceiver {
         this.name = name;
     }
 
-    public void action() {
-        System.out.println("士兵：" + this.getName() + "接收者已执行");
+    public void action(String msg) {
+        System.out.println("士兵：" + this.getName() + "接收者已执行-" + msg);
     }
 }
