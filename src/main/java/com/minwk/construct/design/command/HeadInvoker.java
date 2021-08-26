@@ -17,6 +17,10 @@ public class HeadInvoker {
      */
     private String name;
 
+    public String getName() {
+        return name;
+    }
+
     /**
      * 开火方法，用于调用命令
      *
