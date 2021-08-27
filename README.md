@@ -34,4 +34,5 @@ design
 ├─observer          //观察者模式
 ├─template          //模板模式    https://minwk.top/template-factory/
 ├─command           //命令模式    https://minwk.top/design-command
+├─chain           //责任链模式
 ````
