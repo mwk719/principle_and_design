@@ -21,6 +21,6 @@ public class BigBossHandler extends AbstractHandler {
     @Override
     public void helplessSay(String request) {
         System.out.println(this.getName()
-                .concat("无助地说：王政救我！"));
+                .concat("无助地说：我头大！"));
     }
 }

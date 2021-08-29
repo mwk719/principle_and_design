@@ -24,20 +24,26 @@ public abstract class AbstractHandler {
     private String handleLevel;
 
     /**
-     * 需要处理的请求
+     * 需要处理的请求，该角色的的核心处理逻辑
      *
      * @param request
      */
     public void handleRequest(String request) {
         System.out.println(this.name.concat("接收：")
                 .concat(request));
+        // 该问题符合当前角色的处理等级
         if (request.contains(this.handleLevel)) {
+            // 自己处理
             this.handleBySelf(request);
         } else {
+            // 自己处理不了，看看有没有保护伞
             if (this.getUmbrella() != null) {
+                // 将问题抛给保护伞
                 this.handleByUmbrella();
+                // 保护伞去处理
                 this.getUmbrella().handleRequest(request);
             } else {
+                // 没有保护伞就只能无助的说遗言了
                 this.helplessSay(request);
             }
         }
