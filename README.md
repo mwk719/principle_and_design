@@ -37,4 +37,5 @@ design
 ├─chain             //责任链模式  https://minwk.top/design-chain
 ├─enum              //枚举接口实现  
 ├─anonymousclass    //匿名内部类  https://minwk.top/design-anonymous-class
+├─event             //事件机制
 ````
