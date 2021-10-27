@@ -12,11 +12,11 @@ public class GoodsTest {
 		Goods goods = new Goods("草莓", BigDecimal.ONE);
 		goods.addObserver(new GoodsPrice());
 		goods.priceUp(BigDecimal.TEN);
-		goods.priceUp(BigDecimal.TEN.add(BigDecimal.TEN));
-
-		Goods goods1 = new Goods("苹果", BigDecimal.TEN);
-		goods1.addObserver(new GoodsPrice());
-		goods1.priceUp(BigDecimal.ONE);
+//		goods.priceUp(BigDecimal.TEN.add(BigDecimal.TEN));
+//
+//		Goods goods1 = new Goods("苹果", BigDecimal.TEN);
+//		goods1.addObserver(new GoodsPrice());
+//		goods1.priceUp(BigDecimal.ONE);
 	}
 
 }
