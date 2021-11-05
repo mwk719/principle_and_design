@@ -4,16 +4,16 @@ import com.minwk.construct.pojo.User;
 import org.springframework.context.ApplicationEvent;
 
 /**
- * 发送消息事件
+ * 用户注册事件
  *
  * @author MinWeikai
- * @date 2021/10/26 15:03
+ * @date 2021-11-01 17:42:33
  */
-public class SendMsgEvent extends ApplicationEvent {
+public class UserRegisterEvent extends ApplicationEvent {
 
     private User user;
 
-    public SendMsgEvent(Object source, User user) {
+    public UserRegisterEvent(Object source, User user) {
         super(source);
         this.user = user;
     }

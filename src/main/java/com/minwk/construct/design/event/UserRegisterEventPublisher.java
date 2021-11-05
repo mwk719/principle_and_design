@@ -6,13 +6,13 @@ import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.stereotype.Component;
 
 /**
- * 事件发布
+ * 用户注册事件发布
  *
  * @author MinWeikai
- * @date 2021/10/26 15:04
+ * @date 2021-11-01 17:45:06
  */
 @Component
-public class SendMsgEventPublisher implements ApplicationEventPublisherAware {
+public class UserRegisterEventPublisher implements ApplicationEventPublisherAware {
 
     private ApplicationEventPublisher applicationEventPublisher;
 
@@ -22,6 +22,6 @@ public class SendMsgEventPublisher implements ApplicationEventPublisherAware {
     }
 
     public void publish(User user) {
-        this.applicationEventPublisher.publishEvent(new SendMsgEvent(this, user));
+        this.applicationEventPublisher.publishEvent(new UserRegisterEvent(this, user));
     }
 }

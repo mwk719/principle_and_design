@@ -9,20 +9,19 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * @author MinWeikai
- * @date 2021/10/26 15:50
+ * @date 2021-11-01 17:45:43
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SendMsgEventPublisherTest {
+public class UserRegisterEventPublisherTest {
     @Autowired
-    private SendMsgEventPublisher sendMsgEventPublisher;
+    private UserRegisterEventPublisher userRegisterEventPublisher;
 
     @Test
-    public void publish() {
+    public void publish() throws InterruptedException {
         User user = new User();
         user.setName("君莫笑");
-        user.setMsg("发起进攻！");
-        sendMsgEventPublisher.publish(user);
-
+        userRegisterEventPublisher.publish(user);
+        Thread.sleep(1000*10);
     }
 }
